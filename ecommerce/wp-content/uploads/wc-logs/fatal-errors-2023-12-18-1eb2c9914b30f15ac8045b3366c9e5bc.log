@@ -1,0 +1,36 @@
+2023-12-18T14:01:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\ecommerce\wp-includes\script-loader.php(2245): do_action('wp_print_footer...')
+#3 C:\xampp\htdocs\ecommerce\wp-includes\block-editor.php(377): wp_print_footer_scripts()
+#4 C:\xampp\htdocs\ecommerce\wp-includes\block-editor.php(623): _wp_get_iframed_editor_assets()
+#5 C:\xampp\htdocs\ecommerce\wp-admin\widgets-form-blocks.php(30): get_block_editor_settings(Array, Object(WP_Block_Editor_Context))
+#6 C:\xampp\htdocs\ecommerce\wp-admin\widgets.php(32): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php on line 324
+
+2023-12-18T14:01:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\ecommerce\wp-includes\script-loader.php(2245): do_action('wp_print_footer...')
+#3 C:\xampp\htdocs\ecommerce\wp-includes\block-editor.php(377): wp_print_footer_scripts()
+#4 C:\xampp\htdocs\ecommerce\wp-includes\block-editor.php(623): _wp_get_iframed_editor_assets()
+#5 C:\xampp\htdocs\ecommerce\wp-admin\widgets-form-blocks.php(30): get_block_editor_settings(Array, Object(WP_Block_Editor_Context))
+#6 C:\xampp\htdocs\ecommerce\wp-admin\widgets.php(32): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php on line 324
+
+2023-12-18T14:01:55+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\ecommerce\wp-includes\script-loader.php(2245): do_action('wp_print_footer...')
+#3 C:\xampp\htdocs\ecommerce\wp-includes\block-editor.php(377): wp_print_footer_scripts()
+#4 C:\xampp\htdocs\ecommerce\wp-includes\block-editor.php(623): _wp_get_iframed_editor_assets()
+#5 C:\xampp\htdocs\ecommerce\wp-admin\widgets-form-blocks.php(30): get_block_editor_settings(Array, Object(WP_Block_Editor_Context))
+#6 C:\xampp\htdocs\ecommerce\wp-admin\widgets.php(32): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php on line 324
+
